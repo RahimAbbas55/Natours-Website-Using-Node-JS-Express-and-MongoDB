@@ -62,5 +62,5 @@ Moreover, this project is built upon "Model, View and Controller Architecture". 
 There is another user type called "admin" that can manage all the users, add tours, edit tours and remove users. To sign up as an admin, you will have to achieve it through an application called "Postman" where you can make the required API call.
 Feel free to use this project and be sure to reach out to if you face any difficulty in setting up the project or if you want to work together on any other Node Js projects.
 
-Ps: All the required URLs are given in the specified controller files.
+Ps: All the required URLs are given in the specified router files.
 Happy Coding!
