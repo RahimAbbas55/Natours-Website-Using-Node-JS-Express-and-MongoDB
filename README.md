@@ -5,18 +5,22 @@ This repository contains the code files of a tour website called "Natours". The 
 The project will run on : http://127.0.0.1/api/v1
 
 The functionalities that can be achieved with this website are:
-->Users can sign up as "user" , "guide" or "lead-guide" on this website.
-->Users can login to their account using their email and passwordd.
-->User can browse through numerous tours and can book the tour of their liking.
-->The booking of the tours is achieved through the payment integration of "Stripe API".
-->The users can also check their booking in the user profile section.
-->Moreover, the user can edit their username, email and password in the user profile section.
+1) Users can sign up as "user" , "guide" or "lead-guide" on this website.
+2) Users can login to their account using their email and passwordd.
+3) User can browse through numerous tours and can book the tour of their liking.
+4) The booking of the tours is achieved through the payment integration of "Stripe API".
+5) The users can also check their booking in the user profile section.
+6) Moreover, the user can edit their username, email and password in the user profile section.
 
 <- How to run the project ->
 1)Download the project from the github repository and open it in Vs Code Editor.
+
 2)Download the "Node Js" installer from your web-browser and install it on your system.
+
 3)Open the integrated terminal in the Vs code and initialize the project by typing the command "npm init".
+
 4)Press "Enter" and you will shown multiple options about the description of the project. Set your prefered description about the project and press enter.
+
 5)After initalizing, you have install multiple npm packages/dependencies that are given below:
   ->"@babel/polyfill": "^7.12.1",
   ->"@stripe/stripe-js": "^3.0.3",
@@ -43,13 +47,19 @@ The functionalities that can be achieved with this website are:
   ->"validator": "^10.11.0",
   ->"xss-clean": "^0.1.1"
   (Note: I have also specified the exact dependency version that I used to build the project.)
-6)After downloading all the above dependencies in your project, you can view then in your "package.json" file.
-7)Now comes the step to connect your database. Since, Cloud database is used, head over to MongoDB website and sign up on it.
-8)After creating the account, head over to the given website and follow the steps to integrate your cloud database into your project.
+6
+)After downloading all the above dependencies in your project, you can view then in your "package.json" file.
+7
+)Now comes the step to connect your database. Since, Cloud database is used, head over to MongoDB website and sign up on it.
+8
+)After creating the account, head over to the given website and follow the steps to integrate your cloud database into your project.
   ->URL: https://hevodata.com/learn/mongodb-atlas-nodejs/
-9)After you have made your database cluster, copy the connection string and paste it in the DATABASE variable in the "config.env" file.
-10)Also paste the password of your cloud database in the "password" field of your connection string.
-11)If you did all the steps correctly, then your cloud database will be connected successfully with your Node js project.
+9
+)After you have made your database cluster, copy the connection string and paste it in the DATABASE variable in the "config.env" file.
+10
+)Also paste the password of your cloud database in the "password" field of your connection string.
+11
+)If you did all the steps correctly, then your cloud database will be connected successfully with your Node js project.
 
 Finally, there are 4 database collections called:
 ->Users,
