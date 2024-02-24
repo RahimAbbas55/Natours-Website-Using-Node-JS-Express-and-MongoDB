@@ -1,0 +1,28 @@
+extend base
+
+block content
+    main.main
+        .user-view
+            nav.user-view__menu
+            .user-view__content
+                .user-view__form-container
+                    h2.heading-secondary.ma-bt-md User Sign Up
+                    form.form.form-user-data.signup
+                        .form__group
+                            label.form__label(for='name') Name
+                            input#name.form__input(type='text', value=``, required, name='name')
+                        .form__group.ma-bt-md
+                            label.form__label(for='email') Email address
+                            input#email.form__input(type='email', value=``, required, name='email')
+                        .form__group.ma-bt-md
+                            label.form__label(for='email') Password
+                            input#password.form__input(type='password',minlength='8' required, name='cpass')
+                        .form__group.ma-bt-md
+                            label.form__label(for='email') Confirm Password
+                            input#passwordConfirm.form__input(type='password',minlength='8' required, name='cpass')
+                        .form__group.ma-bt-md
+                            label.form__label(for='email') Role
+                            input#role.form__input(type='text', value=``, required, name='role')
+                        
+                        .form__group.right
+                            button.btn.btn--small.btn--green#signup Sign Up
