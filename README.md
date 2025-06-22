@@ -126,7 +126,7 @@ You can find my social media accounts in my profile description.
   
 <img width="1383" alt="Screenshot 2024-07-09 at 2 48 20 PM" src="https://github.com/RahimAbbas55/Natours-Website-Using-Node-JS-Express-and-MongoDB/assets/101935846/f50ce85c-0223-4020-a13b-3c4847cb7288">
 
-  ##Sign Up:
+  ## Sign Up:
   
 <img width="1385" alt="Screenshot 2024-07-09 at 2 48 36 PM" src="https://github.com/RahimAbbas55/Natours-Website-Using-Node-JS-Express-and-MongoDB/assets/101935846/5dca1e47-63fd-4079-b324-5fb54ae92709">
 
